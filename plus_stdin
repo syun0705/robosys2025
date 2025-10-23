@@ -1,4 +1,5 @@
 #!/home/naitou/anaconda3/bin/python3
+#SPDX-FileCopyrightText: 2025 Syun Naitou
 import sys
 
 ans =0.0
