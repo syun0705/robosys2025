@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/bash -xv
 #SPDX-FileCopyrightText: 2025 Syun Naitou
 #SPDX-License-Identifier: BSD-3-Clause
 
