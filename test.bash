@@ -1,4 +1,4 @@
-#!/user/bin/pyshon3
+#!/usr/bin/bash
 #SPDX-FileCopyrightText: 2025 Syun Naitou
 #SPDX-License-Identifier: BSD-3-Clause
 
@@ -12,7 +12,7 @@ res=0
 #nomal command#
 a=$(seq 5 | ./plus)
 
-[ "$a" = 15.0 ] || ng "$LINENO"
+[ "$a" = 15 ] || ng "$LINENO"
 
 #stlenge command#
 
