@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/user/bin/pyshon3
 #SPDX-FileCopyrightText: 2025 Syun Naitou
 #SPDX-License-Identifier: BSD-3-Clause
 
