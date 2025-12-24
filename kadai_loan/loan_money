@@ -1,0 +1,24 @@
+#!/home/naitou/anaconda3/bin/python3
+# SPDX-FileCopyrightText: 2025 Syun Naitou
+# SPDX-License-Identifier: BSD-3-Clause
+
+import sys
+
+data = input("").split()
+
+loan_money = float(data[0])
+year = float(data[1])
+annual_rate = float(data[2])
+
+month = year * 12
+month_rate = annual_rate / 100 / 12
+
+month_pay = loan_money * 10000 * month_rate * (1 + month_rate) ** month / ((1 + month_rate) ** month - 1)
+
+annual_pay = month_pay * 12
+total_pay = month_pay * month
+
+print(f"月々の返済額：{month_pay:,.0f}円")
+print(f"年間の返済額：{annual_pay:,.0f}円")
+print(f"総返済額：{total_pay:,.0f}円")
+
