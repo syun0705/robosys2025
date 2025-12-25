@@ -1,4 +1,6 @@
-# robosys2025🄫
+# robosys2025
+
+![test](https://github.com/karinodoraneko/robosys2025/actions/workflows/test.yml/badge.svg)
 
 ロボットシステム学　課題
 
