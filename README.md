@@ -42,7 +42,7 @@ git clone https://github.com/syun0705/robosys2025.git
 cd robosys2025
 ```
 
-### loan_moneyコマンド
+## loan_moneyコマンド
 
 ## 実行方法
 
@@ -66,4 +66,4 @@ echo "2000 30 2.0" | ./loan_money
 
 - このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます。
 
-🄫 2025 Syun Naitou
+© 2025 Syun Naitou
