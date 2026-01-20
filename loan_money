@@ -18,7 +18,7 @@ month_pay = loan_money * 10000 * month_rate * (1 + month_rate) ** month / ((1 + 
 annual_pay = month_pay * 12
 total_pay = month_pay * month
 
-print(f"月々の返済額：{month_pay:,.0f}円")
-print(f"年間の返済額：{annual_pay:,.0f}円")
-print(f"総返済額：{total_pay:,.0f}円")
+print(f"{month_pay:.0f}")
+print(f"{annual_pay:.0f}")
+print(f"{total_pay:.0f}")
 
